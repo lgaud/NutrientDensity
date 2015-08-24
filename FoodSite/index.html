@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nutrient Density Comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css" />
+</head>
+<body>
+    
+    <div id="wrap">
+        <h1>Nutrient Density</h1>
+        <p>
+            Compare two foods based on their vitamin and mineral content relative to the number of calories they contain.
+            A score of 1 for a nutrient means that the food contains the nutrient in proportion to its calories (based on a 2000 calorie diet, using RDA for an adult male)
+            The score in the middle is an average. Scores on the chart are capped at 10.
+        </p>
+        <p>Source: <a href="http://www.ars.usda.gov/Services/docs.htm?docid=24912">USDA Nutrient Database</a></p>
+        <div id="left">
+            <label>First Food: <input id="food1Picker" /></label>
+            <svg id="chart1" />
+        </div>
+        <div id="right">
+            <label>Second Food: <input id="food2Picker" /></label>
+            <svg id="chart2" />
+        </div>
+    </div>
+    
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+    <script src="aster.js"></script>
+</body>
+</html>

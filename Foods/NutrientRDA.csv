@@ -1,0 +1,13 @@
+Nutrient,"Male, 31-50 DRI",ConcernIsOverconsumption,ShortName,Comment
+Iron_(mg),8,0,Iron,
+Fiber_TD_(g),38,0,Fiber,
+Sugar_Tot_(g),48,1,Sugar,This is 10% of 2000 calories for free sugar
+Calcium_(mg),1000,0,Calcium,
+Magnesium_(mg),400,0,Magnesium,
+Potassium_(mg),4700,0,Potassium,
+Sodium_(mg),1500,1,Sodium,
+Vit_C_(mg),90,0,Vit_C
+Folate_Tot_(æg),400,0,Folate,
+Vit_A_RAE,900,0,Vit_A,
+Vit_E_(mg),15,0,Vit_E,
+Vit_D_æg,15,0,Vit_D,
